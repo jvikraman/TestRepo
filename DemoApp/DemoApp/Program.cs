@@ -20,6 +20,11 @@ namespace DemoApp
             };
 
             Console.WriteLine("Created a new customer.");
+
+            //change the customer's name.
+            cust.FirstName = "Jane";
+            cust.LastName = "Smith";
+
         }
     }
 }
