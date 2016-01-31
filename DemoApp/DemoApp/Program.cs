@@ -18,6 +18,8 @@ namespace DemoApp
                 FirstName = "John",
                 LastName = "Doe"
             };
+
+            Console.WriteLine("Created a new customer.");
         }
     }
 }
