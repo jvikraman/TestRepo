@@ -25,6 +25,14 @@ namespace DemoApp
             cust.FirstName = "Jane";
             cust.LastName = "Smith";
 
+            //create a second customer.
+            Customer cust2 = new Customer
+            {
+                ID = 2,
+                FirstName = "Shane",
+                LastName = "West"
+            };
+
         }
     }
 }
