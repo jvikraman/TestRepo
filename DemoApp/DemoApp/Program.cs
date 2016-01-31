@@ -33,6 +33,9 @@ namespace DemoApp
                 LastName = "West"
             };
 
+            //changing the second customer's name.
+            cust2.FirstName = "Larry";
+            cust2.LastName = "Walker";
         }
     }
 }
